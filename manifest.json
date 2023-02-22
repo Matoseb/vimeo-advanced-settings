@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Vimeo Advanced Settings",
+  "description": "Redirects to the advanced settings page",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"],
+      "all_frames": true
+    }
+  ],
+  "permissions": ["<all_urls>"]
+}

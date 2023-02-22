@@ -1,0 +1,1 @@
+# Redirect to advanced settings
